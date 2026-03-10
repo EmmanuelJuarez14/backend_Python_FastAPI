@@ -4,23 +4,23 @@ from sqlalchemy import Column, String, create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, Session
 
-# --- CONFIGURACIÓN DE BASE DE DATOS ---
+# Configuración de la base de datos
 SQLALCHEMY_DATABASE_URL = "sqlite:///./users.db"
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL, connect_args={"check_same_thread": False})
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
 
-# Modelo de Tabla (Lo que se guarda en SQLite)
+# Modelo de la tabla usuarios
 class UserDB(Base):
     __tablename__ = "users"
     username = Column(String, primary_key=True, index=True)
     password = Column(String)
 
-# Crear la base de datos y la tabla
+# Creación de base de datos
 Base.metadata.create_all(bind=engine)
 
-# --- ESQUEMAS (Pydantic) ---
+# Validación de los datos del usuario
 class UserSchema(BaseModel):
     username: str
     password: str
