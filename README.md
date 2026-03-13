@@ -1,4 +1,4 @@
-# **Práctica No. 1 - "Instalación y Funcionamiento de los Entornos Móviles"**
+# **Tarea No. 3 - Backend de la practica 2**
 
 ## Nombres:
  - Gómez Tovar Yoshua Oziel🥇
@@ -55,27 +55,3 @@ Para compilar y ejecutar este proyecto necesitas:
 
 5-.Presiona Run (Shift + F10) para compilar e instalar la app en tu emulador o dispositivo.
 
- Capturas de Pantalla (Evidencias de Ejercicios)
-A continuación se presentan las evidencias de la funcionalidad de la aplicación requeridas en la práctica:
-
-Ejercicio 1: Conexión y Verificación de la API
-Petición GET al endpoint raíz mostrando el mensaje de respuesta de la API.
-
-(Foto)
-
-Ejercicio 2: Pantalla de Registro
-Petición POST a /register. Se muestran los casos de registro exitoso y el manejo del error cuando el usuario ya existe.
-
-(Foto)
-(Foto)
-
-Ejercicio 3: Pantalla de Login
-Petición POST a /login. Navegación a la pantalla de bienvenida con credenciales correctas y mensaje de error con credenciales incorrectas.
-
-(Foto)
-(Foto)
-
-Ejercicio 4: Manejo de Errores de Red
-Captura de la excepción de red manejada correctamente (sin cierre abrupto de la app).
-
-(Foto)
