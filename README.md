@@ -18,7 +18,7 @@ Este repositorio contiene la implementación de una aplicación móvil en Androi
 
 ---
 
-## 🚀 Requisitos Previos
+##  Requisitos Previos
 
 Para compilar y ejecutar este proyecto necesitas:
 1. **Docker Desktop** instalado y en ejecución.
@@ -55,27 +55,27 @@ Para compilar y ejecutar este proyecto necesitas:
 
 5-.Presiona Run (Shift + F10) para compilar e instalar la app en tu emulador o dispositivo.
 
-📸 Capturas de Pantalla (Evidencias de Ejercicios)
+ Capturas de Pantalla (Evidencias de Ejercicios)
 A continuación se presentan las evidencias de la funcionalidad de la aplicación requeridas en la práctica:
 
 Ejercicio 1: Conexión y Verificación de la API
 Petición GET al endpoint raíz mostrando el mensaje de respuesta de la API.
 
-(Arrastra aquí la captura del TextView con el mensaje del servidor)
+(Foto)
 
 Ejercicio 2: Pantalla de Registro
 Petición POST a /register. Se muestran los casos de registro exitoso y el manejo del error cuando el usuario ya existe.
 
-(Arrastra aquí la captura del registro exitoso)
-(Arrastra aquí la captura del error "usuario ya existe")
+(Foto)
+(Foto)
 
 Ejercicio 3: Pantalla de Login
 Petición POST a /login. Navegación a la pantalla de bienvenida con credenciales correctas y mensaje de error con credenciales incorrectas.
 
-(Arrastra aquí la captura del login exitoso en la pantalla de bienvenida)
-(Arrastra aquí la captura del login fallido con el mensaje de error)
+(Foto)
+(Foto)
 
 Ejercicio 4: Manejo de Errores de Red
-Captura de la excepción de red manejada correctamente (sin cierre abrupto de la app) simulando la caída del servidor (contenedor Docker detenido).
+Captura de la excepción de red manejada correctamente (sin cierre abrupto de la app).
 
-(Arrastra aquí la captura del Toast/mensaje de "Error de red" en la app)
+(Foto)
