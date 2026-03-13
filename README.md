@@ -1,8 +1,17 @@
+# **Práctica No. 1 - "Instalación y Funcionamiento de los Entornos Móviles"**
+
+## Nombres:
+ - Gómez Tovar Yoshua Oziel🥇
+ - Juarez Palma Emmanuel🥉
+ - Zarco Sosa Kevin🥈
+## Grupo:
+ 7CV4
+
 # Backend Con Python y Fast-API
 
 Este repositorio contiene la implementación de una aplicación móvil en Android (desarrollada en Kotlin) que consume una API REST local. El backend está construido con **Python y FastAPI**, y se encuentra dockerizado para facilitar su despliegue, cumpliendo con los requisitos del ciclo completo de comunicación HTTP.
 
-## 📂 Estructura del Proyecto
+##  Estructura del Proyecto
 
 * **`Android/`**: Contiene el código fuente de la aplicación móvil (vistas, layouts y la capa de red configurada con Retrofit).
 * **`Python_FastAPI/`**: Contiene la implementación del backend RESTful, la lógica de base de datos y el `Dockerfile`.
@@ -18,7 +27,7 @@ Para compilar y ejecutar este proyecto necesitas:
 
 ---
 
-## 🛠️ Instrucciones de Compilación y Ejecución
+## Instrucciones de Compilación y Ejecución
 
 ### 1. Levantar el Backend (FastAPI + Docker)
 
@@ -42,7 +51,7 @@ Para compilar y ejecutar este proyecto necesitas:
 
   -Si usas el Emulador de Android Studio: La URL base en el cliente Retrofit debe ser http://10.0.2.2:8000/.
 
-  -Si usas un Dispositivo Físico: Asegúrate de estar en la misma red Wi-Fi y cambia la URL base a la IP de tu computadora (ej. http://192.168.1.XX:8000/).
+  -Si usas un Dispositivo Físico: Asegúrate de estar en la misma red Wi-Fi y cambia la URL base a la IP de tu computadora.
 
 5-.Presiona Run (Shift + F10) para compilar e instalar la app en tu emulador o dispositivo.
 
